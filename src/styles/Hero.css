@@ -1,0 +1,41 @@
+.hero-section {
+  height: 60vh;
+  position: relative;
+  width: 100%;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+  background: url("https://cdn.pixabay.com/photo/2024/01/10/11/09/mountain-8499331_1280.jpg")
+    no-repeat center center / cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 100px auto 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  color: #e2e2e28a;
+  max-width: 800px;
+}
